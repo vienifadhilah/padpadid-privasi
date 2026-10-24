@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi PadPadid</title>
+<!-- Sumber halaman GitHub Pages di repo publik "padpadid-privasi".
+     Ringkasannya juga ada di aplikasi (MainActivity.teksPrivasi) - isi
+     keduanya harus tetap sama. Tanpa font, skrip, atau gambar dari luar:
+     halaman kebijakan privasi tidak boleh memuat pelacak apa pun. -->
+<style>
+  :root { --latar: #ffffff; --teks: #1b1f23; --redup: #57606a; --aksen: #00a650; --garis: #d0d7de; }
+  @media (prefers-color-scheme: dark) {
+    :root { --latar: #0f1115; --teks: #e6edf3; --redup: #9198a1; --aksen: #3fcf7f; --garis: #30363d; }
+  }
+  body { margin: 0; background: var(--latar); color: var(--teks);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h1 i { color: var(--aksen); }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--garis); }
+  .redup { color: var(--redup); }
+  .ringkas { border-left: 4px solid var(--aksen); padding: 4px 16px; margin: 24px 0; }
+  li { margin: 6px 0; }
+  code { font-size: .95em; }
+  a { color: var(--aksen); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kebijakan Privasi <i>PadPad</i>id</h1>
+  <p class="redup">Berlaku sejak 25 Oktober 2026 · Aplikasi Android <code>com.padpadid</code></p>
+
+  <p class="ringkas"><strong>PadPadid tidak mengumpulkan, mengirim, atau membagikan data
+  pribadi apa pun.</strong> Semua yang dilakukan aplikasi terjadi di dalam HP kamu.</p>
+
+  <h2>Data yang diproses, dan semuanya tetap di HP kamu</h2>
+  <ul>
+    <li><strong>Masukan dari perangkat <i>PadPad Console</i></strong> (tombol dan posisi
+      setir) dibaca lewat Bluetooth dan langsung dipakai untuk menggerakkan sentuhan
+      di layar. Tidak disimpan dan tidak dikirim.</li>
+    <li><strong>Tata letak tombol, daftar game yang kamu tambahkan, dan setelan</strong>
+      disimpan di penyimpanan privat aplikasi di HP.</li>
+    <li><strong>Kunci sambungan Debugging nirkabel</strong> dibuat di HP, disimpan di
+      penyimpanan privat aplikasi, dan hanya dipakai untuk menyambung ke HP itu sendiri.
+      Kunci ini dikecualikan dari cadangan awan dan dari pemindahan data ke HP baru.</li>
+    <li><strong>Daftar aplikasi yang punya ikon peluncur</strong> dibaca supaya kamu bisa
+      memilih game. Daftar ini tidak dikirim ke mana pun.</li>
+  </ul>
+
+  <h2>Jaringan</h2>
+  <p>Izin internet hanya dipakai untuk dua hal: menyambung ke layanan debugging di HP
+  itu sendiri (alamat <code>127.0.0.1</code>), dan mencari port pemasangan Debugging
+  nirkabel di jaringan Wi-Fi lokal (mDNS). Tidak ada data yang dikirim ke server mana
+  pun.</p>
+
+  <h2>Izin yang dipakai</h2>
+  <ul>
+    <li><strong>Tampil di atas aplikasi lain</strong>: ikon pengaturan dan panel pemetaan
+      tombol di atas game.</li>
+    <li><strong>Notifikasi</strong>: kotak kode pemasangan dan tombol berhenti.</li>
+    <li><strong>Layanan latar depan</strong>: menjaga ikon pengaturan tetap tampil
+      selama bermain.</li>
+    <li><strong>Internet dan status jaringan</strong>: sambungan lokal seperti dijelaskan
+      di atas.</li>
+  </ul>
+
+  <h2>Yang tidak ada</h2>
+  <p>Tidak ada iklan, analitik, pelacak, akun, pembelian dalam aplikasi, ataupun
+  pembagian data dengan pihak ketiga.</p>
+
+  <h2>Menghapus data</h2>
+  <p>Copot aplikasi, atau hapus datanya di Setelan HP, maka semua data di atas ikut
+  terhapus. Untuk mencabut akses debugging yang pernah diberikan: Setelan → Opsi
+  pengembang → <em>Cabut otorisasi debugging</em>.</p>
+
+  <h2>Anak-anak</h2>
+  <p>Aplikasi ini tidak ditujukan untuk anak di bawah 13 tahun, dan tidak mengumpulkan
+  data siapa pun.</p>
+
+  <h2>Perubahan kebijakan</h2>
+  <p>Perubahan akan diumumkan di halaman ini dengan tanggal berlaku yang baru.</p>
+
+  <h2>Kontak</h2>
+  <p>Pertanyaan soal privasi bisa diajukan lewat halaman
+  <a href="https://github.com/vienifadhilah/padpadid-privasi/issues">Issues</a>
+  repositori halaman ini.</p>
+
+  <h2 lang="en">English summary</h2>
+  <p lang="en">PadPadid does not collect, transmit, or share any personal data. Input from
+  the PadPad Console Bluetooth device is used on the phone in real time and never stored
+  or sent. Button layouts and settings stay in the app's private storage. The wireless
+  debugging key is created on the phone, used only to connect to that same phone
+  (<code>127.0.0.1</code>), and excluded from cloud backup and device-to-device
+  transfer. The internet permission is used only for that local connection and for
+  local mDNS discovery of the pairing port. No ads, analytics, trackers, or accounts.
+  Uninstalling the app deletes all of its data. Privacy questions:
+  <a href="https://github.com/vienifadhilah/padpadid-privasi/issues">open an issue</a>.</p>
+</main>
+</body>
+</html>
